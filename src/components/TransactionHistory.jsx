@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 // import clsx from 'clsx';
 import css from '../css/TransactionHistory.module.css';
 
@@ -26,6 +26,7 @@ export default function TransactionHistory({ items }) {
     </table>
   );
 }
+TransactionHistory.PropTypes = { items: PropTypes.object.isRequired };
 
 // function TransactionHistoryList({ type, amount, currency }) {
 //   return (
