@@ -1,17 +1,28 @@
 .friend-list {
+  list-style: none;
 }
 
 .item {
+  display: flex;
+  margin: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+  gap: 5px;
+  padding: 10px;
+  align-items: center;
 }
 
 .status {
   color: red;
+  font-size: 80px;
 }
 .isOnline {
   color: green;
 }
 
 .avatar {
+  width: 100px;
 }
 
 .name {

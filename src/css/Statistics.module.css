@@ -1,11 +1,27 @@
 .statistics {
+  border: 1px solid;
 }
 
-.title{}
+.title {
+  text-align: center;
+}
 
-.stat-list{}
+.stat-list {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+}
+.label {
+}
 
-.label{}
-
-.percentage{}
-
+.percentage {
+}
